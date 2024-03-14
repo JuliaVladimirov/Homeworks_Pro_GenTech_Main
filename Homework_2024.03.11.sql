@@ -111,7 +111,7 @@ where t2.UNIT_PRICE > (
             on  t2.PRODUCT_ID = t1.PRODUCT_ID
 			where t1.PRODUCT_NAME like 'LaserPro 600/6/BW' order by t2.UNIT_PRICE limit 1
 );
-    
+ -- было два принтера с таким названием, поэтому отсортировала по цене и взяла меньшую цену   
 
 
 
