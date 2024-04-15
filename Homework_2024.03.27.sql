@@ -97,7 +97,3 @@ inner join orders t2
 on t1.SELL_ID = t2.SELL_ID
 where t2.ODATE between '2022-03-01' and '2022-05-01'
 order by t2.amt desc limit 1;
-
-
-
-
