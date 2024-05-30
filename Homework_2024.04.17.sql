@@ -53,7 +53,7 @@ from customers t1
 inner join orders t2
 on t1.CUST_ID = t2.CUST_ID
 group by t1.CNAME
-having sum(t2.AMT) > (select avg(AMT) from orders);
+having sum(t2.AMT) > (select avg(AMT) from orders);city
 
 
 
